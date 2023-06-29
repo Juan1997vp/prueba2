@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@300&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/001/946/528/non_2x/abstract-geometric-square-grey-with-line-on-white-background-technology-concept-free-vector.jpg);
+  background-color: #f5f5f5;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif
+  padding: 10px;
+  text-align: center;
+}
+
+#turno {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.resultado {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.jugador {
+  background-color: #04AA6D;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-color: transparent;
+  width: 180px;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.defensa {
+  background-color: #aa5d04;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-color: transparent;
+  width: 180px;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.icono-jugador,
+.icono-cpu {
+  display: block;
+  width: 100px;
+  height: 180px;
+  margin: 0 auto;
+  background-color: #ccc;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100px;
+  color: #fff;
+  font-size: 24px;
+}
+
+#resultados {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#resultados td,
+#resultados th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#resultados tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#resultados tr:hover {
+  background-color: #ddd;
+}
+
+#resultados th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+button {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+    
+  

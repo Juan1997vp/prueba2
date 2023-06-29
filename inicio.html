@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BATALLA ANIMAL</title>
+    <link rel="stylesheet" href="juego.css">
+</head>
+<body>
+    <center>
+    <h1 id="turno">Turno del Jugador, selecciona un ataque</h1>
+    <div class="jugador" id="jugador">
+        <h2>Ataques</h2>
+        <img src="./assets/mokepons_mokepon_capipepo_attack.png" alt="Hipodoge" width="150px" height="150px">
+        
+       </label>
+        <button type="button" id="agua" onclick="atacarUsuario('agua')">Agua💧</button><br/><br/>
+        <button type="button" id="electricidad" onclick="atacarUsuario('electricidad')">Electricidad🌱</button><br/><br/>
+        <button type="button" id="fuego" onclick="atacarUsuario('fuego')">Fuego🔥</button><br/><br/>
+    </div>
+
+    <div class="defensa" id="defensa">
+        <h2>Defensas</h2>
+        <img src="./assets/mokepons_mokepon_ratigueya_attack.png" alt="Ratigueya" width="150px" height="150px">
+        <button type="button" id="escudo" onclick="atacarCpu('escudo')">Escudo</button><br/><br/>
+        <button type="button" id="gas" onclick="atacarCpu('gas')">Gas</button><br/><br/>
+        <button type="button" id="balas" onclick="atacarCpu('balas')">Balas</button><br/><br/>
+    </div>
+</center>
+
+    <div class="resultado">
+        <table id="resultados">
+            <thead>
+                <tr>
+                    <th>Jugador</th>
+                    <th>CPU</th>
+                    <th>Resultado</th>
+                    <th>Vida Jugador</th>
+                    <th>Vida CPU</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+    <script type="text/javascript" src="juego.js"></script>
+</body>
+</html>
